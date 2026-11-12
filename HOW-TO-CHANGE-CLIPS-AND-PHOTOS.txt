@@ -1,0 +1,46 @@
+FILM BY HIRUD - HOW TO CHANGE VIDEOS AND PHOTOS YOURSELF
+=========================================================
+
+THE RULE
+Replace a file with a new one that has EXACTLY THE SAME NAME. The website
+will show the new file automatically. You never need to edit index.html.
+
+VIDEOS  (folder: videos)
+  cover-reel.mp4     Big opening video at the top of the page
+  about-couple.mp4   Video in the arch beside "Real moments, cinematically told"
+  film-1.mp4         "Films we're proud of" - first card (left)
+  film-2.mp4         "Films we're proud of" - second card (middle)
+  film-3.mp4         "Films we're proud of" - third card (right)
+
+PHOTOS  (folder: images)
+  inquiry-slide-1.jpg ... inquiry-slide-6.jpg
+        The photos that fade one after another beside the inquiry form
+  cta-night-beach.jpg
+        Background of "Are you ready to experience your special day with us?"
+  gallery-1.jpg ... gallery-8.jpg
+        The photo grid at the bottom (left to right, top to bottom)
+
+TIPS FOR NEW VIDEO FILES
+  - MP4 (H.264), no sound needed, 16:9 wide (1280x720 or 1920x1080)
+  - 3 to 10 seconds is ideal. Keep each file under 2 MB so the page loads fast.
+  - Shoot or crop the couple near the CENTER of the frame.
+  - Free tool to shrink a video: HandBrake (handbrake.fr), preset "Fast 720p30",
+    then tick "No audio".
+
+TIPS FOR NEW PHOTOS
+  - JPG, about 1000 pixels on the long side, under 200 KB.
+  - Free tool to shrink photos: squoosh.app
+
+HOW TO REPLACE A FILE ON GITHUB (use a computer, not the phone app)
+  1. Rename your new file to match the old name exactly (e.g. film-2.mp4).
+  2. Open your repository on github.com and click the folder (videos or images).
+  3. Click  Add file > Upload files, drag your renamed file in.
+  4. Click  Commit changes. The old file is replaced.
+  5. Wait 1-3 minutes, then open https://filmbyhirud.online/ in a PRIVATE TAB
+     (your normal browser may still show the old file for a while).
+
+IMPORTANT
+  - Upload new files into the SAME folder as the old one.
+  - If you ever want a different number of clips or photos, ask Claude.
+  - Do not double-click index.html on your computer to test it. The logo
+    will not show that way. Test on the live website instead.
